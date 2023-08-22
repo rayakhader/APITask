@@ -1,4 +1,4 @@
-import * as fun from "./usgeFunctions.js";
+import * as fun from "./usageFunctions.js";
 fun.createElements();
 window.addEventListener('load',()=>{
     fun.addStyle(1)
