@@ -1,0 +1,120 @@
+body {
+    background-color:#dde5f0;
+    font-family: 'Avenir', sans-serif;
+}
+.card-container{
+    position: relative;
+    height:660px;
+    width: 1120px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 210px;
+}
+.card-container h1 {
+    position: absolute;
+    margin: 60px 60px;
+}
+form.no-submit {
+    border: 2px solid #dde5f0;
+    position: absolute;
+    display: flex;
+    margin: 120px 60px;
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+}
+input.no-submit {
+    position: relative;
+    width: 225px;
+    border: none;
+}
+input.no-submit:focus{
+    outline: none;
+}
+.search-icon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    font-size: 50px;
+}
+div.titles{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 590px;
+}
+div.titles button{
+    font-size: 15px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.container-one{
+    position: absolute;
+    display: flex;
+    width: 1000px;
+    height: 180px;
+    margin-top:200px;
+    margin-left: 60px;
+}
+.container-two{
+    position: absolute;
+    display: flex;
+    width: 1000px;
+    height: 180px;
+    margin-top:400px;
+    margin-left: 60px;
+
+}
+.card{
+    position: relative;
+    height: 180px;
+    width: 400px;
+}
+.card:hover{
+    border-radius: 10px;
+    border:2px solid #dde5f0;
+}
+.card img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    position: absolute;
+    object-fit: cover;
+    margin:10px;
+
+}
+.card h4 {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+
+}
+.card h5 {
+    position: absolute;
+    top: 45px;
+    left: 110px;
+}
+.skill{
+    position: relative;
+    top: 120px;
+    left: 50px;
+    border: 1px solid #dde5f0;
+    color:#6f87fc ;
+    border-radius: 900px;
+    font-size: 10px;
+    padding: 10px;
+}
+.skill:hover{
+   box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.1);
+    color: #5764f7;
+}
+
+
+
+
+
+
