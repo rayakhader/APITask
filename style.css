@@ -86,7 +86,6 @@ div.titles button{
     position: absolute;
     object-fit: cover;
     margin:10px;
-    border: 1px solid #dde5f0;
 }
 .card h4 {
     position: absolute;
