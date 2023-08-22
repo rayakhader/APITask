@@ -12,7 +12,7 @@ function addStyle(btnnum){
 }
 for (let i= 0 ;i<titles.length;i++) {
     titles[i].addEventListener('click', () => {
-            addStyle(i)
+        addStyle(i)
     })
 }
 window.addEventListener('load',()=>{
@@ -53,7 +53,6 @@ function fetchDataTwo(url){
         })
 }
 function  buildContainerOne(data){
-    console.log(data)
    let containerOne= document.querySelector('.container-one');
     containerOne.innerHTML= data.map(({first_name, last_name,gender,employment ,avatar})=>{
     return `<span class="card">
