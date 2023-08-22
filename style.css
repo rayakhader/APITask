@@ -10,6 +10,7 @@ body {
     background-color: white;
     margin-top: 50px;
     margin-left: 210px;
+    box-shadow: 4px 4px 4px 4px #dde5f0;
 }
 .card-container h1 {
     position: absolute;
@@ -67,7 +68,6 @@ div.titles button{
     height: 180px;
     margin-top:400px;
     margin-left: 60px;
-
 }
 .card{
     position: relative;
@@ -77,6 +77,7 @@ div.titles button{
 .card:hover{
     border-radius: 10px;
     border:2px solid #dde5f0;
+    box-shadow: 4px 4px 4px 4px #dde5f0;
 }
 .card img {
     height: 90px;
@@ -85,13 +86,12 @@ div.titles button{
     position: absolute;
     object-fit: cover;
     margin:10px;
-
+    border: 1px solid #dde5f0;
 }
 .card h4 {
     position: absolute;
     left: 110px;
     top: 10px;
-
 }
 .card h5 {
     position: absolute;
